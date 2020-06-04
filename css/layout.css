@@ -18,14 +18,14 @@
     grid-column-gap: 20px;
 }
 
-.main_content{
+.main__content{
 
     display: grid;
     grid-row-gap: 10px;
     grid-template-rows: 230px 230px;
 }
 
-.main_sidebar{
+.main__sidebar{
 
     display: grid;
     grid-row-gap: 10px;
