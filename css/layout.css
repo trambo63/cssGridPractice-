@@ -3,3 +3,31 @@
     margin: 0;
     padding: 0;
 }
+.container{
+
+    display: grid;
+    grid-template-rows: 100px 470px 150px;
+    width: 1000px; 
+    margin: 10px auto; 
+}
+
+.main{
+
+    display: grid;
+    grid-template-columns: 680px 300px;
+    grid-column-gap: 20px;
+}
+
+.main_content{
+
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-rows: 230px 230px;
+}
+
+.main_sidebar{
+
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-rows: 150px 150px 150px;
+}
